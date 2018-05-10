@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EE5440B820A41CD2002C3698 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5440B720A41CD2002C3698 /* AppDelegate.swift */; };
-		EE5440BA20A41CD2002C3698 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5440B920A41CD2002C3698 /* ViewController.swift */; };
 		EE5440BD20A41CD2002C3698 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE5440BB20A41CD2002C3698 /* Main.storyboard */; };
 		EE5440BF20A41CD5002C3698 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE5440BE20A41CD5002C3698 /* Assets.xcassets */; };
 		EE5440C220A41CD5002C3698 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE5440C020A41CD5002C3698 /* LaunchScreen.storyboard */; };
+		EE5440CA20A41CFC002C3698 /* CatListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5440C920A41CFC002C3698 /* CatListTableViewController.swift */; };
+		EE5440CC20A41D1B002C3698 /* CatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5440CB20A41D1B002C3698 /* CatTableViewCell.swift */; };
+		EE5440CF20A41D51002C3698 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5440CE20A41D51002C3698 /* Cat.swift */; };
+		EE5440D120A41D68002C3698 /* TestCatRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5440D020A41D68002C3698 /* TestCatRepository.swift */; };
+		EE5440D320A41DA4002C3698 /* CatRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5440D220A41DA4002C3698 /* CatRepository.swift */; };
+		EE5440D620A41DF8002C3698 /* ListViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5440D520A41DF8002C3698 /* ListViewType.swift */; };
+		EE5440D820A41E4C002C3698 /* RepositoryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5440D720A41E4C002C3698 /* RepositoryType.swift */; };
+		EE5440DA20A41E7D002C3698 /* ConfigurableViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5440D920A41E7D002C3698 /* ConfigurableViewType.swift */; };
+		EE5440DC20A41EBD002C3698 /* CatCellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5440DB20A41EBD002C3698 /* CatCellType.swift */; };
+		EE5440E120A4217C002C3698 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5440E020A4217C002C3698 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EE5440B420A41CD2002C3698 /* POP_CatList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POP_CatList.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE5440B720A41CD2002C3698 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EE5440B920A41CD2002C3698 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EE5440BC20A41CD2002C3698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE5440BE20A41CD5002C3698 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE5440C120A41CD5002C3698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE5440C320A41CD5002C3698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE5440C920A41CFC002C3698 /* CatListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatListTableViewController.swift; sourceTree = "<group>"; };
+		EE5440CB20A41D1B002C3698 /* CatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatTableViewCell.swift; sourceTree = "<group>"; };
+		EE5440CE20A41D51002C3698 /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		EE5440D020A41D68002C3698 /* TestCatRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCatRepository.swift; sourceTree = "<group>"; };
+		EE5440D220A41DA4002C3698 /* CatRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatRepository.swift; sourceTree = "<group>"; };
+		EE5440D520A41DF8002C3698 /* ListViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewType.swift; sourceTree = "<group>"; };
+		EE5440D720A41E4C002C3698 /* RepositoryType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryType.swift; sourceTree = "<group>"; };
+		EE5440D920A41E7D002C3698 /* ConfigurableViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurableViewType.swift; sourceTree = "<group>"; };
+		EE5440DB20A41EBD002C3698 /* CatCellType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCellType.swift; sourceTree = "<group>"; };
+		EE5440E020A4217C002C3698 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +70,54 @@
 		EE5440B620A41CD2002C3698 /* POP_CatList */ = {
 			isa = PBXGroup;
 			children = (
-				EE5440B720A41CD2002C3698 /* AppDelegate.swift */,
-				EE5440B920A41CD2002C3698 /* ViewController.swift */,
-				EE5440BB20A41CD2002C3698 /* Main.storyboard */,
-				EE5440BE20A41CD5002C3698 /* Assets.xcassets */,
-				EE5440C020A41CD5002C3698 /* LaunchScreen.storyboard */,
+				EE5440E020A4217C002C3698 /* AppDelegate.swift */,
+				EE5440CD20A41D45002C3698 /* Model */,
+				EE5440DD20A41F08002C3698 /* View Controllers */,
+				EE5440D420A41DD8002C3698 /* Protocols */,
+				EE5440DE20A41F1C002C3698 /* Resources */,
 				EE5440C320A41CD5002C3698 /* Info.plist */,
 			);
 			path = POP_CatList;
+			sourceTree = "<group>";
+		};
+		EE5440CD20A41D45002C3698 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EE5440CE20A41D51002C3698 /* Cat.swift */,
+				EE5440D220A41DA4002C3698 /* CatRepository.swift */,
+				EE5440D020A41D68002C3698 /* TestCatRepository.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EE5440D420A41DD8002C3698 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				EE5440D520A41DF8002C3698 /* ListViewType.swift */,
+				EE5440D720A41E4C002C3698 /* RepositoryType.swift */,
+				EE5440D920A41E7D002C3698 /* ConfigurableViewType.swift */,
+				EE5440DB20A41EBD002C3698 /* CatCellType.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		EE5440DD20A41F08002C3698 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EE5440C920A41CFC002C3698 /* CatListTableViewController.swift */,
+				EE5440CB20A41D1B002C3698 /* CatTableViewCell.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		EE5440DE20A41F1C002C3698 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EE5440BB20A41CD2002C3698 /* Main.storyboard */,
+				EE5440C020A41CD5002C3698 /* LaunchScreen.storyboard */,
+				EE5440BE20A41CD5002C3698 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +191,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE5440BA20A41CD2002C3698 /* ViewController.swift in Sources */,
-				EE5440B820A41CD2002C3698 /* AppDelegate.swift in Sources */,
+				EE5440CC20A41D1B002C3698 /* CatTableViewCell.swift in Sources */,
+				EE5440DC20A41EBD002C3698 /* CatCellType.swift in Sources */,
+				EE5440CA20A41CFC002C3698 /* CatListTableViewController.swift in Sources */,
+				EE5440D120A41D68002C3698 /* TestCatRepository.swift in Sources */,
+				EE5440D320A41DA4002C3698 /* CatRepository.swift in Sources */,
+				EE5440D620A41DF8002C3698 /* ListViewType.swift in Sources */,
+				EE5440DA20A41E7D002C3698 /* ConfigurableViewType.swift in Sources */,
+				EE5440D820A41E4C002C3698 /* RepositoryType.swift in Sources */,
+				EE5440E120A4217C002C3698 /* AppDelegate.swift in Sources */,
+				EE5440CF20A41D51002C3698 /* Cat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
